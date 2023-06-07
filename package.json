@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "modern-normalize": "^2.0.0",
-    "node-sass": "^9.0.0"
+    "modern-normalize": "^2.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
