@@ -1,0 +1,27 @@
+{
+  "name": "tfa",
+  "version": "1.0.0",
+  "description": "projet tfa heaj",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test",
+    "compile:sass": "node-sass assets/style/main.scss -o assets/style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt593/B2G2_TFA_CUEVA_Mateo.git"
+  },
+  "keywords": [
+    "tfa",
+    "animergency"
+  ],
+  "author": "mateo cueva mateo.cueva352@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt593/B2G2_TFA_CUEVA_Mateo/issues"
+  },
+  "homepage": "https://github.com/matt593/B2G2_TFA_CUEVA_Mateo#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
