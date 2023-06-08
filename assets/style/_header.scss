@@ -89,11 +89,6 @@
     border-bottom: 3px var(--color-primary) solid;
 }
 
-.nav__el--active::after{
-    content: url(../images/Animergency-picto-copie.svg);
-    display: block;
-}
-
 .nav__el--inactive{
     border-bottom: 3px var(--color-bg) solid;
 }

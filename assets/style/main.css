@@ -45,10 +45,14 @@
   /* Largeur de l'image */
   height: 16px;
   /* Hauteur de l'image */
-  background-image: url("../images/Animergency-picto copie.svg");
+  background-image: url("../images/Animergency-picto-copie.svg");
   background-size: cover;
   margin-left: 5px;
   /* Espacement entre l'image et le texte du lien */ }
+
+.header__link.active::after {
+  content: url(../images/Animergency-picto-copie.svg);
+  display: block; }
 
 .nav__header {
   padding-bottom: 36px;
@@ -83,18 +87,6 @@
   color: var(--color-primary);
   transition: .3s ease;
   text-decoration: none; }
-
-.header__btn--theme {
-  width: 45px;
-  height: 45px;
-  background-image: url(../images/icons-dark.svg);
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  overflow: hidden;
-  position: relative;
-  margin-top: 18px;
-  cursor: pointer; }
 
 .header__button--txt {
   position: absolute;
