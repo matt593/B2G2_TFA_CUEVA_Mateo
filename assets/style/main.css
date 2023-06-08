@@ -56,7 +56,7 @@
 
 .nav__header {
   padding-bottom: 36px;
-  transform: translateX(0%);
+  transform: translateX(100%);
   transition: transform 0.2s ease-out;
   display: flex;
   flex-direction: column;
@@ -78,8 +78,7 @@
   margin-top: 18px; }
 
 .nav__el--active {
-  border-bottom: 3px var(--color-primary) solid;
-  color: var(--color-primary); }
+  border-bottom: 3px var(--color-primary) solid; }
 
 .nav__el--inactive {
   border-bottom: 3px var(--color-bg) solid; }
