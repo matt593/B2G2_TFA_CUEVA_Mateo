@@ -75,7 +75,9 @@
   margin-top: 18px; }
 
 .nav__el--active {
-  border-bottom: 3px var(--color-primary) solid; }
+  border-bottom: 3px var(--color-primary) solid;
+  background-image: url(../images/Animergency-picto-copie.svg);
+  background-size: cover; }
 
 .nav__el--inactive {
   border-bottom: 3px var(--color-bg) solid; }
