@@ -120,7 +120,7 @@
   --color-fourth: #a69580; }
 
 .image__content {
-  margin-left: 0;
+  padding-left: 0;
   width: 80%;
   height: auto; }
 
