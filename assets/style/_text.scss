@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+.title{
+    font-family: 'Cabin', sans-serif;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--color-primary);
+    padding-top: 40px;
+}
+
+.title--big{
+    color: var(--color-primary);
+    font-size: 44pt;
+    font-weight: 700;
+
+}
+
+.txt__content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--color-text);
+}

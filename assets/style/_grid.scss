@@ -1,5 +1,14 @@
 /* css grid*/
 
+.content{
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 18px;
+    max-width: 100ch;
+    margin: auto;
+}
+
 .mgrid-start01{
     grid-column-start: 1;
 }
