@@ -94,7 +94,7 @@
   text-indent: 100%; }
 
 .header--display {
-  transform: translateX(-100%);
+  transform: translateX(-50%);
   transition: transform 0.2s ease-in;
   margin-bottom: -200px; }
 
