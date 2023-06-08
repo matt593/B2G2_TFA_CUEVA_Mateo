@@ -13,7 +13,7 @@
 
 .header__menu--logo {
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
   width: 50px;
@@ -116,3 +116,42 @@
   --color-secondary: #2d4473;
   --color-third: #f37575;
   --color-fourth: #a69580; }
+
+/* css grid*/
+.mgrid-start01 {
+  grid-column-start: 1; }
+
+.mgrid-start02 {
+  grid-column-start: 2; }
+
+.mgrid-start03 {
+  grid-column-start: 3; }
+
+.mgrid-start04 {
+  grid-column-start: 4; }
+
+.mgrid-start05 {
+  grid-column-start: 5; }
+
+.mgrid-end02 {
+  grid-column-end: 2; }
+
+.mgrid-end03 {
+  grid-column-end: 3; }
+
+.mgrid-end04 {
+  grid-column-end: 4; }
+
+.mgrid-end05 {
+  grid-column-end: 5; }
+
+.mgrid-end {
+  grid-column-end: -1; }
+
+.image__content {
+  position: absolute;
+  left: -100%;
+  transition: left 0.5s; }
+
+.image__content.visible {
+  left: 0; }
