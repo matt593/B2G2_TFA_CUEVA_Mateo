@@ -49,7 +49,7 @@
     transform: translateY(-50%);
     width: 16px; /* Largeur de l'image */
     height: 16px; /* Hauteur de l'image */
-    background-image: url('../images/Animergency-picto\ copie.svg');
+    background-image: url('../images/Animergency-picto-copie.svg');
     background-size: cover;
     margin-left: 5px; /* Espacement entre l'image et le texte du lien */
   }
@@ -82,6 +82,11 @@
 
 .nav__el--active{
     border-bottom: 3px var(--color-primary) solid;
+    content: ;
+}
+
+.nav__el--active::after{
+    content: url(../images/Animergency-picto-copie.svg);
 }
 
 .nav__el--inactive{
@@ -92,19 +97,6 @@
     color: var(--color-primary);
     transition: .3s ease;
     text-decoration: none;
-}
-
-.header__btn--theme{
-    width: 45px;
-    height: 45px;
-    background-image: url(../images/icons-dark.svg);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-	overflow: hidden;
-    position: relative;
-    margin-top: 18px;
-    cursor: pointer;
 }
 
 .header__button--txt{
