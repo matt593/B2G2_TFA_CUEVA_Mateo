@@ -29,3 +29,17 @@ document.addEventListener("DOMContentLoaded", function() {
       image.classList.add("visible");
     }, 500); // Délai de 1 seconde avant d'ajouter la classe "visible"
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var image = document.querySelector(".image__content2");
+    setTimeout(function() {
+      image.classList.add("visible");
+    }, 650); // Délai de 1 seconde avant d'ajouter la classe "visible"
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var image = document.querySelector(".image__content1");
+    setTimeout(function() {
+      image.classList.add("visible");
+    }, 850); // Délai de 1 seconde avant d'ajouter la classe "visible"
+  });
