@@ -55,10 +55,7 @@
   }
 
 .header__link.active::after{
-    width: 16px; /* Largeur de l'image */
-    height: 16px; /* Hauteur de l'image */
-    background-image: url('../images/Animergency-picto-copie.svg');
-    margin-left: 5px; /* Espacement entre l'image et le texte du lien */
+    content: url(../images/Animergency-picto-copie.svg);
 }
 
 
