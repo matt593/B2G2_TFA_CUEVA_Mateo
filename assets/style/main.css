@@ -119,15 +119,6 @@
   --color-third: #f37575;
   --color-fourth: #a69580; }
 
-.image-container {
-  position: relative; }
-
-.image-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
 .btn-experience {
   font-family: 'Cabin', sans-serif;
   text-align: center;
