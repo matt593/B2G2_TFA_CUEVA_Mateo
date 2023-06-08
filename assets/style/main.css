@@ -12,9 +12,8 @@
   align-items: center; }
 
 .header__menu--logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
   width: 50px;
   cursor: pointer; }
 
