@@ -121,15 +121,13 @@
   width: 80%;
   margin-top: 10%; }
 
-.image__content1 {
-  width: 50%;
-  height: 50%; }
-
 .image-container {
   position: relative; }
 
 .image-container img {
   position: absolute;
+  width: 50%;
+  height: 50%;
   top: 0;
   left: 0;
   z-index: 1; }
