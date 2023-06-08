@@ -54,9 +54,11 @@
     margin-left: 5px; /* Espacement entre l'image et le texte du lien */
   }
 
-.header__link--active{
+.header__link:active::after{
     content: "";
     position: absolute;
+    top: 50%;
+    right: 0;
     transform: translateY(-50%);
     width: 16px; /* Largeur de l'image */
     height: 16px; /* Hauteur de l'image */
