@@ -117,10 +117,6 @@
   --color-third: #f37575;
   --color-fourth: #a69580; }
 
-.image__content {
-  width: 80%;
-  margin-top: 10%; }
-
 .image-container {
   position: relative; }
 
@@ -129,6 +125,14 @@
   top: 0;
   left: 0;
   z-index: 1; }
+
+.image__content {
+  width: 80%;
+  margin-top: 10%; }
+
+.image__content1 {
+  width: 50%;
+  height: 50%; }
 
 /* css grid*/
 .mgrid-start01 {
