@@ -50,10 +50,6 @@
   margin-left: 5px;
   /* Espacement entre l'image et le texte du lien */ }
 
-.header__link.active::after {
-  content: url(../images/Animergency-picto-copie.svg);
-  display: block; }
-
 .nav__header {
   padding-bottom: 36px;
   transform: translateX(0%);
@@ -78,7 +74,7 @@
   margin-top: 18px; }
 
 .nav__el--active {
-  content: url(../images/Animergency-picto-copie.svg); }
+  border-bottom: 3px var(--color-primary) solid; }
 
 .nav__el--inactive {
   border-bottom: 3px var(--color-bg) solid; }
