@@ -119,6 +119,11 @@
   --color-third: #f37575;
   --color-fourth: #a69580; }
 
+.image__content {
+  margin-left: 0;
+  width: 80%;
+  height: 50%; }
+
 .btn-experience {
   font-family: 'Cabin', sans-serif;
   text-align: center;
