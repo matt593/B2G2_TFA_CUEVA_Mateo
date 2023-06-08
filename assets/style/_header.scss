@@ -86,7 +86,7 @@
 }
 
 .nav__el--active{
-    content: url(../images/Animergency-picto-copie.svg);
+    border-bottom: 3px var(--color-primary) solid;
 }
 
 .nav__el--inactive{
