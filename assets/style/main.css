@@ -55,7 +55,6 @@
   /* Espacement entre l'image et le texte du lien */ }
 
 .nav__header {
-  background-color: aqua;
   padding-bottom: 36px;
   transform: translateX(0%);
   transition: transform 0.2s ease-out;
@@ -66,7 +65,7 @@
   right: 0px;
   height: 92vh;
   top: 10vh;
-  background-color: var(--color-bg);
+  background-color: var(--color-primary);
   width: 70%; }
 
 .header__el {
