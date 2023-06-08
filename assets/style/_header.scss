@@ -54,10 +54,6 @@
     margin-left: 5px; /* Espacement entre l'image et le texte du lien */
   }
 
-.header__link.active::after{
-    content: url(../images/Animergency-picto-copie.svg);
-    display: block;
-}
 
 .nav__header{
     padding-bottom: 36px;
