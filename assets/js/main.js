@@ -27,5 +27,5 @@ document.addEventListener("DOMContentLoaded", function() {
     var image = document.querySelector(".image__content");
     setTimeout(function() {
       image.classList.add("visible");
-    }, 1000); // Délai de 1 seconde avant d'ajouter la classe "visible"
+    }, 500); // Délai de 1 seconde avant d'ajouter la classe "visible"
   });
