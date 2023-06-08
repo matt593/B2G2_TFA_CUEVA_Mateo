@@ -84,7 +84,6 @@
 .nav__el--active{
     border-bottom: 3px var(--color-primary) solid;
     content: "";
-    position: absolute;
     transform: translateY(-50%);
     width: 16px; /* Largeur de l'image */
     height: 16px; /* Hauteur de l'image */
