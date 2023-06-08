@@ -199,4 +199,5 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--color-text); }
+  color: var(--color-text);
+  margin: 10px 0; }
