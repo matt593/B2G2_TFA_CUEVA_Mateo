@@ -121,6 +121,15 @@
   width: 80%;
   margin-top: 10%; }
 
+.image-container {
+  position: relative; }
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
 /* css grid*/
 .mgrid-start01 {
   grid-column-start: 1; }
