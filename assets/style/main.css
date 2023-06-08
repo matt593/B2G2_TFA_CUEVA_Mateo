@@ -53,8 +53,6 @@
 .header__link--active {
   content: "";
   position: absolute;
-  top: 50%;
-  right: 0;
   transform: translateY(-50%);
   width: 16px;
   /* Largeur de l'image */
