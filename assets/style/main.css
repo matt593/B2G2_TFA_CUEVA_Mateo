@@ -50,8 +50,7 @@
   margin-left: 5px;
   /* Espacement entre l'image et le texte du lien */ }
 
-.header__link:active::after {
-  content: "";
+.header__link:active {
   position: absolute;
   top: 50%;
   right: 0;
