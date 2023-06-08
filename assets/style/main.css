@@ -56,7 +56,7 @@
 
 .nav__header {
   padding-bottom: 36px;
-  transform: translateX(100%);
+  transform: translateX(0%);
   transition: transform 0.2s ease-out;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
   text-indent: 100%; }
 
 .header--display {
-  transform: translateX(100%);
+  transform: translateX(50%);
   transition: transform 0.2s ease-in;
   margin-bottom: -200px; }
 
