@@ -122,7 +122,7 @@
 .image__content {
   margin-left: 0;
   width: 80%;
-  height: 50%; }
+  height: auto; }
 
 .btn-experience {
   font-family: 'Cabin', sans-serif;
@@ -182,8 +182,7 @@
   font-size: 84px;
   font-weight: 700;
   line-height: 1.4;
-  color: var(--color-primary);
-  padding-top: 40px; }
+  color: var(--color-primary); }
 
 .title--big {
   color: var(--color-primary);
