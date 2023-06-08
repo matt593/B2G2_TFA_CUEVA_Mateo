@@ -126,8 +126,6 @@
 
 .image-container img {
   position: absolute;
-  width: 50%;
-  height: 50%;
   top: 0;
   left: 0;
   z-index: 1; }
