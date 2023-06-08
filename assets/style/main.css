@@ -119,10 +119,6 @@
   --color-third: #f37575;
   --color-fourth: #a69580; }
 
-.image__content {
-  width: 80%;
-  margin-top: 10%; }
-
 .image-container {
   position: relative; }
 
@@ -131,6 +127,20 @@
   top: 0;
   left: 0;
   z-index: 1; }
+
+.btn-experience {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  background-color: var(--color-primary);
+  margin-top: 40px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: var(--color-bg);
+  text-decoration: none; }
+
+.bouton--style :hover {
+  background-color: var(--color-bg);
+  color: var(--color-primary); }
 
 /* css grid*/
 .content {
@@ -181,7 +191,7 @@
 
 .title--big {
   color: var(--color-primary);
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700; }
 
 .txt__content {
