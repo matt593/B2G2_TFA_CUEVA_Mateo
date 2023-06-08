@@ -23,5 +23,8 @@
   "homepage": "https://github.com/matt593/B2G2_TFA_CUEVA_Mateo#readme",
   "devDependencies": {
     "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
   }
 }
