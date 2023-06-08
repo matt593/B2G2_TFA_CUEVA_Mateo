@@ -78,13 +78,13 @@
   margin-top: 18px; }
 
 .nav__el--active {
-  border-bottom: 3px var(--color-primary) solid; }
-
-.nav__el--inactive {
   border-bottom: 3px var(--color-bg) solid; }
 
+.nav__el--inactive {
+  border-bottom: 3px var(--color-primary) solid; }
+
 .header__link:hover {
-  color: var(--color-primary);
+  color: var(--color-bg);
   transition: .3s ease;
   text-decoration: none; }
 
