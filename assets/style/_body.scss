@@ -49,8 +49,16 @@
     background-color: var(--color-third);
 }
 
+.section-link{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: var(--color-text);
+}
+
+/* scroll up bouton */
+
 #scrollUpButton {
-    display: none; /* Masque le bouton initialement */
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
