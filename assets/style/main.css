@@ -138,6 +138,9 @@
   background-color: var(--color-bg);
   color: var(--color-primary); }
 
+.motivation {
+  background-color: var(--color-secondary); }
+
 #scrollUpButton {
   display: none;
   /* Masque le bouton initialement */
