@@ -36,3 +36,10 @@ window.addEventListener('scroll', function() {
   document.getElementById('scrollUpButton').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' }); /* Anime le défilement jusqu'en haut de la page */
   });
+
+  //Date footer
+let date = new Date();
+let year = date.getFullYear();
+
+let yr = document.querySelector("#year");
+yr.innerText = year;

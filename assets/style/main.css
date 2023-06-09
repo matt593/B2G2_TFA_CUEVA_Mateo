@@ -160,7 +160,7 @@
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  background-color: #000;
+  background-color: #fff;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -201,7 +201,7 @@
 
 .footer__el--img {
   width: 100px;
-  margin: 20px auto; }
+  margin: auto; }
 
 .reseaux__list {
   display: flex;
