@@ -34,9 +34,9 @@ document.querySelector('.scroll-up-button').addEventListener('click', () => {
   
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > 0) {
-    scrollButton.style.display = 'block'; // Affiche le bouton si la position de défilement est supérieure à 0
+    scrollButton.style.display = 'block'; 
   } else {
-    scrollButton.style.display = 'none'; // Masque le bouton si la position de défilement est en haut de la page
+    scrollButton.style.display = 'none'; 
   }
 });
 
