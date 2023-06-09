@@ -213,6 +213,17 @@
   font-weight: 700;
   margin: 50px 0; }
 
+.title--medium {
+  color: var(--color-text);
+  font-size: 36px;
+  padding-top: 30px;
+  margin-top: 40px; }
+
+.title--small {
+  color: var(--color-text);
+  font-size: 26px;
+  padding-top: 30px; }
+
 .txt__content {
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
