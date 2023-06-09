@@ -22,6 +22,39 @@ function menu(){
 }
 }
 
+//
+
+const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.slide');
+const slideWidth = slides[0].offsetWidth;
+
+let slideIndex = 0;
+
+function slideTo(index) {
+  slider.style.transform = `translateX(-${slideWidth * index}px)`;
+}
+
+function nextSlide() {
+  slideIndex++;
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+  slideTo(slideIndex);
+}
+
+function previousSlide() {
+  slideIndex--;
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  }
+  slideTo(slideIndex);
+}
+
+// Écouteurs d'événements pour les boutons de navigation
+document.getElementById('nextBtn').addEventListener('click', nextSlide);
+document.getElementById('prevBtn').addEventListener('click', previousSlide);
+
+
 // Scroll up bouton
 
 window.addEventListener('scroll', function() {
