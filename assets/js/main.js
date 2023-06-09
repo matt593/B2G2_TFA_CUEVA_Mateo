@@ -22,4 +22,17 @@ function menu(){
 }
 }
 
+// Scroll up bouton
 
+window.addEventListener('scroll', function() {
+    var scrollButton = document.getElementById('scrollUpButton');
+    if (window.pageYOffset > 100) {
+      scrollButton.style.display = 'block'; /* Affiche le bouton lorsque l'utilisateur fait défiler la page */
+    } else {
+      scrollButton.style.display = 'none'; /* Masque le bouton lorsque l'utilisateur est en haut de la page */
+    }
+  });
+  
+  document.getElementById('scrollUpButton').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); /* Anime le défilement jusqu'en haut de la page */
+  });
