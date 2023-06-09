@@ -141,6 +141,12 @@
 .motivation {
   background-color: var(--color-secondary); }
 
+.solutions {
+  background-color: var(--color-fourth); }
+
+.presentation {
+  background-color: var(--color-third); }
+
 #scrollUpButton {
   display: none;
   /* Masque le bouton initialement */
