@@ -129,7 +129,7 @@
   font-family: 'Cabin', sans-serif;
   text-align: center;
   background-color: var(--color-primary);
-  margin-top: 40px;
+  margin: 40px 0;
   padding: 8px 12px;
   border-radius: 20px;
   color: var(--color-bg);
