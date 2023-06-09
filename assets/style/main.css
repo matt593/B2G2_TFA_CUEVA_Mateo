@@ -174,10 +174,6 @@
   margin-top: 108px;
   text-align: center; }
 
-.footer__el--img {
-  width: 100px;
-  margin: auto; }
-
 .footer__link {
   color: var(--color-bg);
   text-decoration: none; }
@@ -205,7 +201,7 @@
 
 .footer__el--img {
   width: 100px;
-  margin: auto; }
+  margin: 20px auto; }
 
 .reseaux__list {
   display: flex;
