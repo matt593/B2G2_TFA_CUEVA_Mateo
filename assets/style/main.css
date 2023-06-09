@@ -161,6 +161,7 @@
   right: 20px;
   z-index: 9999;
   background-image: url(../images/Animergency-picto-copie.svg);
+  background-repeat: no-repeat;
   border: none;
   border-radius: 50%;
   padding: 10px;
