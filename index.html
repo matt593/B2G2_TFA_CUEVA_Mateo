@@ -7,7 +7,10 @@
 
     <title>TFA | Landing page</title>
     <link rel="stylesheet" href="assets/style/main.css">
+    <link href="assets/style/aos.css" rel="stylesheet">
+
     <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/aos.js"></script>
 
     <meta name="description" content="Projet TFA de l'option DWT par Mateo Cueva">
 
@@ -61,54 +64,92 @@
         <nav class="nav__header header--display header--no-display" id="menu-burger">
             <ul class="header__el">
                 <li class="header__el nav__el--active"><a class="header__link" href="index.html">Accueil</a></li>
-                <li class="header__el nav__el--inactive"><a class="header__link" href="rencontres.html">Rencontres</a></li>
-                <li class="header__el nav__el--inactive"><a class="header__link" href="solutions.html">Solutions</a></li>
-                <li class="header__el nav__el--inactive"><a class="header__link" href="modules.html">Modules</a></li>
-                <li class="header__el nav__el--inactive"><a class="header__link" href="modules.html">Présentation</a></li>
+                <li class="header__el nav__el--inactive"><a class="header__link" href="#rencontres">Rencontres</a></li>
+                <li class="header__el nav__el--inactive"><a class="header__link" href="#solutions">Solutions</a></li>
+                <li class="header__el nav__el--inactive"><a class="header__link" href="#modules">Modules</a></li>
+                <li class="header__el nav__el--inactive"><a class="header__link" href="#presentation">Présentation</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
 
         <div class="content">
             <figure class="mgrid-start01 mgrid-end05 gridstart01 grid-end07">
-                <img class="image__content" src="assets/images/image-intro.png" srcset="assets/images/image-intro@2x.png 2x" alt="Prototype app" loading="lazy" decoding="async">
+                <img class="image__intro" src="assets/images/image-introd.png" srcset="assets/images/image-introd@2x.png 2x" alt="chien heureux" loading="lazy" decoding="async" data-aos="fade-right" data-aos-duration="1500">
             </figure>
             <h1 class="title title--big mgrid-start01 mgrid-end grid-start01 grid-end">Le meilleur moyen de les aider, c'est de savoir comment!</h1>
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">AnimErgency est un guide complet et gratuit pour prendre soin de nos animaux bien-aimés. Qu’il s’agisse d’un animal domestique ou sauvage, savoir agir fait toute la différence : apprenez donc comment apporter une aide précieuse à ces animaux en détresse.</p>
             <a class="btn-experience bouton--style  mgrid-start02 mgrid-end05" href="https://xd.adobe.com/view/9a886bf7-ffc2-4fcb-9da5-5ba5720505b7-cfdb/?fullscreen&hints=off">Commencer l'expérience</a>
         </div>
 
-        <section class="content motivation">
+        <section class="scroll-reveal content motivation" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title title--medium title--color mgrid-start01 mgrid-end grid-start01 grid-end">Motivation</h2>
-            <figure class="mgrid-start01 mgrid-end05 gridstart01 grid-end07">
-                <img class="image__content" src="assets/images/maya.png" srcset="assets/images/maya@2x.png 2x" alt="Prototype app" loading="lazy" decoding="async">
+            <figure class="figure mgrid-start01 mgrid-end05 gridstart01 grid-end07">
+                <img class="image__content" src="assets/images/maya.png" srcset="assets/images/maya@2x.png 2x" alt="Photo de moi et de Maya" loading="lazy" decoding="async" data-aos="fade-right" data-aos-duration="1500">
             </figure>
             <p class="txt__content txt__content--color mgrid-start01 mgrid-end grid-start03 grid-end09">Etant passionné des animaux depuis mon plus jeune âge, j’ai décidé de consacrer mon TFA à leur bien-être. En effet, c’est lorsque je me rappelais de tous les animaux blessés que l’on trouve aux bords des routes, qu’une vague idée de projet m’est venue. Je ne savais pas encore comment m’y prendre, ni si mon idée était bonne ou pas. Tout ce que je voulais, c’était de venir en aide à ces animaux dans le besoin, d’une quelconque façon.</p>
         </section>
 
-        <section class="content rencontres">
+        <section id="rencontres"  class="scroll-reveal content rencontres" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Rencontres</h2>
 
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Pour commencer mon travail, je souhaitais me tourner vers une association qui aurait comme objectif principal de soigner des animaux. C’est là que j’ai découvert le CREAVES de Namur, une ASBL spécialisée dans la revalidation des espèces animales vivant à l’état sauvage.</p>
 
+            <h3 class="title title--small mgrid-start01 mgrid-end grid-start01 grid-end">Rencontre avec L’ASBL</h3>
+            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Lors de mon passage à l’ASBL, j’ai pu rencontrer brièvement Romain De Jaegere (vice-président et coordinateur du centre), ainsi que Laurence Delcourt (responsable soin et des soigneurs) et quelques bénévoles. C’est avec Laurence que j’en ai appris plus sur le centre. Elle m’a expliqué que leur mission est d’accueillir et soigner les animaux sauvages blessés, malades ou en danger en vue de les restituer, après revalidation, à la vie sauvage dans leur habitat naturel.</p>
             <figure class="mgrid-start02 mgrid-end05 gridstart01 grid-end07">
-                <img class="image__content" src="assets/images/logo-creaves-Namur.png" srcset="assets/images/logo-creaves-Namur@2x.png 2x" alt="Prototype app" loading="lazy" decoding="async">
+                <img class="image__content" src="assets/images/logo-creaves-Namur.png" srcset="assets/images/logo-creaves-Namur@2x.png 2x" alt="Logo creaves namur" loading="lazy" decoding="async">
             </figure>
-            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Le CREAVES de Namur est une ASBL qui prend en charge temporairement et gratuitement les animaux qui se retrouvent blessés ou malades. Le seul but étant de prodiguer les soins nécessaires avant la remise en liberté sur le lieu de la découverte lorsque c’est possible.</p>
 
+            
+            <h3 class="title title--small mgrid-start01 mgrid-end grid-start01 grid-end">Réalisation d’enquête auprès des personnes</h3>
+            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Une fois ma rencontre avec l’association derrière moi, je ne savais plus trop dans quelle direction je devais emmener mon projet. Après pas mal de réflexion, j’ai eu une pensée qui m’a permis de m’en sortir: “Et si je n’étais pas le seul à vouloir venir en aide à ces animaux blessés? Et si comme moi, d’autres personnes veulent venir en aide aux animaux que ce soit les leur ou pas, mais ne savent juste pas comment faire? ”. Afin de valider ma théorie, j’ai développé un questionnaire qui me permettrait de savoir si mon idée était juste ou pas, mais aussi d’obtenir des données et des conclusions pour le moins intéressantes.</p>
             <figure class="mgrid-start02 mgrid-end05 gridstart01 grid-end07">
                 <img class="image__content" src="assets/images/formulaire.png" srcset="assets/images/formulaire@2x.png 2x" alt="Image d'un formulaire" loading="lazy" decoding="async">
             </figure>
-            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Le CREAVES de Namur est une ASBL qui prend en charge temporairement et gratuitement les animaux qui se retrouvent blessés ou malades. Le seul but étant de prodiguer les soins nécessaires avant la remise en liberté sur le lieu de la découverte lorsque c’est possible.</p>
 
-            <a class="section-link mgrid-start01 mgrid-end grid-start03 grid-end09" href="#">Lien vers reste d'infos</a>
+            <details class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Qu’est ce que le Creaves?</summary>
+                  <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Le CREAVES de Namur est une ASBL qui prend en charge temporairement et gratuitement les animaux qui se retrouvent blessés ou malades. Le seul but étant de prodiguer les soins nécessaires avant la remise en liberté sur le lieu de la découverte lorsque c’est possible.</p>
+                  <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Ils accueillent à grand nombre d’animaux dont:</p>
+                  <ul class="list__details">
+                        <li class="list__details--el"> les oiseaux (du plus petit au plus grand), à l’exception des pigeons bisets</li>
+                        <li class="list__details--el">les mammifères (sauf grand gibier)</li>
+                        <li class="list__details--el">les amphibiens (grenouilles, crapauds, salamandres,...)</li>
+                        <li class="list__details--el">les reptiles indigènes (lézard, serpent)</li>
+                  </ul>
+                  <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Néanmoins, les animaux domestiques, les espèces animales envahissantes (ratons-laveurs, ragondins) ainsi que les NAC (nouveaux animaux de compagnie) ne sont pas pris en charge par le centre. </p>
+            </details>
+
+            <details  class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Les difficultés du centre?</summary>
+                    <ul class="list__details">
+                        <li class="list__details--el">Manque de donations et de bénévoles</li>
+                        <li class="list__details--el">Manque de savoir des bénévoles pour les soins</li>
+                        <li class="list__details--el">Problème de transmission des connaissances </li>
+                    </ul>
+            </details>
+
+            <details  class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Résultat de l’enquête </summary>
+                  <ul class="list__details">
+                    <li class="list__details--el">80% des personnes interrogés possèdent un ou plusieurs animaux mais 97% n’ont aucune connaissance des gestes des premiers secours</li>
+                    <li class="list__details--el">50% des personnes ont déjà rencontré des situations d’urgence avec leurs animaux et 65% avec des animaux sauvages</li>
+                    <li class="list__details--el">Plus de 90% des personnes sont prêtes à apprendre les gestes de premiers secours</li>
+                  </ul>
+            </details>
+
+            <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Conclusion des rencontres et de l’enquête</h2>
+            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Suite à mes différentes interviews, ainsi qu’aux résultats de mon enquête, j’ai pu trouver le problème auquel j’allais m’attaquer: le manque de savoir dans une situation d’urgence ou non, avec un animal blessé.</p>
+
+            <h3 class="title title--small mgrid-start01 mgrid-end grid-start01 grid-end">Mais quel est l’intérêt de s’intéresser à ce problème et pas à un autre? </h3>
+            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">La réponse est pourtant très simple. Comme pour les êtres humains, lors d’un cas d'urgence médicale chez un animal, des premiers secours adéquats peuvent faire la différence entre la vie et la mort, et peuvent également aider à réduire la gravité des blessures. Pour cela, avoir les connaissances nécessaires est primordial, afin de prendre les mesures appropriées avant d'emmener l’animal chez le vétérinaire.</p>
 
         </section>
 
-        <section class="content solutions">
-            <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Solutions</h2>
+        <section id="solutions" class="scroll-reveal content solutions supersoluce" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class=" title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Solutions</h2>
 
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Après beaucoup de réflexion, j’ai fini par trouver 3 potentielles solutions</p>
 
@@ -116,82 +157,110 @@
                 <img class="image__content" src="assets/images/solution.png" srcset="assets/images/solution@2x.png 2x" alt="Illustration solution" loading="lazy" decoding="async">
             </figure>
 
-            <ul>
-                <li>Réaliser un guide imprimé</li>
-                <li>Groupes de discussion:</li>
-                <li>Formation en ligne:</li>
-            </ul>
+            <details  class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Réaliser un guide imprimé:</summary>
+                <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Les guides imprimés peuvent être une bonne ressource pour les personnes qui ont besoin d'une référence rapide. Les guides peuvent inclure des instructions détaillées, des illustrations et des graphiques pour faciliter la compréhension.</p>
+            </details>
 
-            <h3 class="title title--small mgrid-start01 mgrid-end grid-start01 grid-end">Solution choisie</h3>
+            <details  class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Groupes de discussion:</summary>
+                <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Les groupes de discussion peuvent être un moyen efficace pour les gens de partager leurs connaissances et expériences, de poser des questions et d'apprendre les uns des autres.</p>
+            </details>
 
-            <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Ayant chacune leurs points forts et points faibles, j’ai opté pour la solution qui pourrait être la plus complète et offrant la meilleure expérience utilisateur: la formation en ligne.</p>
-            
-            <a class="section-link mgrid-start01 mgrid-end grid-start03 grid-end09" href="#">Lien vers reste d'infos</a>
+            <details  class="more mgrid-start01 mgrid-end">
+                <summary class="sum__title">Formation en ligne:</summary>
+                <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Les formations en ligne peuvent être utiles pour les personnes qui souhaitent apprendre à leur rythme partout où ils vont. Elles peuvent être facilement accessibles, répétées et mises à jour, et peuvent inclure des vidéos et des activités interactives pour renforcer l'apprentissage.</p>
+            </details>
+
+                <h3 class="title title--small mgrid-start01 mgrid-end grid-start01 grid-end">Solution choisie</h3>
+                <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Ayant chacune leurs points forts et points faibles, j’ai opté pour la solution qui pourrait être la plus complète et offrant la meilleure expérience utilisateur: la formation en ligne. Comme mentionné plus haut, grâce à celle-ci, il est possible d’apprendre à son propre rythme partout où l’on souhaite. Elle permet aussi d’inclure des images, des vidéos, des graphiques et tout le contenu dont on pourrait avoir besoin afin de la rendre le plus intéractive et ludique possible. Et trouvant que les autres solutions pouvaient encore avoir leurs utilités, j’ai décidé de les mettre de côté pour le moment, et peut-être les intégrer dans le futur comme des fonctionnalités secondaires.</p>
 
         </section>
 
-        <section class="content modules">
-            <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Fonctionalités</h2>
+        <section id="modules" class="scroll-reveal content modules" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Modules</h2>
 
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Dans le but de mener à bien mon projet, il y aura une fonctionnalité principale et plusieurs fonctionnalités secondaires. </p>
 
-            <div class="slider-container">
-                <div class="slider">
-                  <div class="slide">
-                    <div class="slide-content">
-                      <i class="icon">Icon 1</i>
-                      <h3>Apprendre</h3>
-                      <figure class="mgrid-start01 mgrid-end gridstart01 grid-end07">
-                        <img class="image__content" src="assets/images/apprendre.png" srcset="assets/images/solution@2x.png 2x" alt="Illustration solution" loading="lazy" decoding="async">
-                    </figure>
+            <div class="slider__container mgrid-start01 mgrid-end">
+                <div class="slider mgrid-start01 mgrid-end">
+                    <div class="souscontent slide slides-content mgrid-start01 mgrid-end">
+                        <img class="icone mgrid-start03 mgrid-end04" src="assets/images/apprendre.svg" alt="Icone apprendre">
+                        <h4 class="mini--title mgrid-start02 mgrid-end05">Formation en ligne</h4>
+                        <img class="img__slide mgrid-start02 mgrid-end" src="assets/images/apprendre.png" srcset="assets/images/apprendre@2x.png 2x" alt="Image prototype app module apprentissage" data-aos="zoom-in" data-aos-duration="1500">
+                        <details  class="more mgrid-start01 mgrid-end">
+                            <summary class="sum__title">Détails</summary>
+                            <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Le but premier de mon projet étant celui de former/ instruire les utilisateurs, il me paraît logique que je doive me concentrer surtout sur cet aspect du site/ application. En effet, je veux créer un espace attractif et intéractif où les personnes choisissent elles-mêmes les sujets qui les intéressent le plus, et aussi qu’elles prennent un certain plaisir lorsqu'elles apprennent.</p>
+                        </details>
                     </div>
-                  </div>
-                  <div class="slide">
-                    <div class="slide-content">
-                        <i class="icon">Icon 1</i>
-                        <h3>Apprendre</h3>
-                        <figure class="mgrid-start01 mgrid-end gridstart01 grid-end07">
-                          <img class="image__content" src="assets/images/apprendre.png" srcset="assets/images/solution@2x.png 2x" alt="Illustration solution" loading="lazy" decoding="async">
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="slide-content">
-                        <i class="icon">Icon 1</i>
-                        <h3>Apprendre</h3>
-                        <figure class="mgrid-start01 mgrid-end gridstart01 grid-end07">
-                          <img class="image__content" src="assets/images/apprendre.png" srcset="assets/images/solution@2x.png 2x" alt="Illustration solution" loading="lazy" decoding="async">
-                      </figure>
-                    </div>
-                  </div>
                 </div>
-            </div>              
 
-            <a class="section-link mgrid-start01 mgrid-end grid-start03 grid-end09" href="#">Lien vers reste d'infos</a>
+                <div class="slider mgrid-start01 mgrid-end">
+                    <div class="souscontent slide slides-content mgrid-start01 mgrid-end">
+                        <img class="icone mgrid-start03 mgrid-end04" src="assets/images/quiz.svg" alt="Icone quiz">
+                        <h4 class="mini--title mgrid-start02 mgrid-end05">Quiz</h4>
+                        <img class="img__slide mgrid-start02 mgrid-end" src="assets/images/quiz.png" srcset="assets/images/quiz@2x.png 2x" alt="Image prototype app module quiz" data-aos="zoom-in" data-aos-duration="1500">
+                        <details  class="more mgrid-start01 mgrid-end">
+                            <summary class="sum__title">Détails</summary>
+                            <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Cette fonctionnalité aurait pour objectif de permettre à l’utilisateur de tester les connaissances qu’il aurait apprises tout seul ou à l’aide du guide. De plus, si celui-ci (l’utilisateur), n’a pas envie d’apprendre de manière traditionnelle (càd, lecture ou autre) il peut tout de même apprendre à l’aide du quiz.</p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="slider mgrid-start01 mgrid-end">
+                    <div class="souscontent slide slides-content mgrid-start01 mgrid-end">
+                        <img class="icone mgrid-start03 mgrid-end04" src="assets/images/espace-perso.svg" alt="Icone espace personnel">
+                        <h4 class="mini--title mgrid-start02 mgrid-end05">Espace personnel</h4>
+                        <img class="img__slide mgrid-start02 mgrid-end" src="assets/images/espace-perso.png" srcset="assets/images/espace-perso@2x.png 2x" alt="Image prototype app module espace personnel" data-aos="zoom-in" data-aos-duration="1500">
+                        <details  class="more mgrid-start01 mgrid-end">
+                            <summary class="sum__title">Détails</summary>
+                            <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">La création d’un espace personnel aurait pour but de permettre à l’utilisateur de personnaliser son expérience. Par exemple, lors de son inscription il/elle peut sélectionner les sujets qui l'intéresse le plus (ex: quoi faire en cas d’étouffement, comment réaliser un massage cardiaque, etc..) et/ou en fonction des animaux qu’il possèdent, l’application lui proposerait les sujets qui pourrait lui intéresser.</p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="slider mgrid-start01 mgrid-end">
+                    <div class="souscontent slide slides-content mgrid-start01 mgrid-end">
+                        <img class="icone mgrid-start03 mgrid-end04" src="assets/images/sos.svg" alt="Icone urgence">
+                        <h4 class="mini--title mgrid-start02 mgrid-end05">Bouton de contact d'urgence</h4>
+                        <img class="img__slide mgrid-start02 mgrid-end" src="assets/images/urgence.png" srcset="assets/images/urgence@2x.png 2x" alt="Image prototype app module appel d'urgence" data-aos="zoom-in" data-aos-duration="1500">
+                        <details  class="more mgrid-start01 mgrid-end">
+                            <summary class="sum__title">Détails</summary>
+                            <p class="txt__details mgrid-start01 mgrid-end grid-start03 grid-end09">Ce bouton permettrait à quiconque se trouvant dans une situation d’urgence médicale avec un animal, de faire appel à la clinique vétérinaire ou centre de soin le plus proche de sa position.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+                           
             
         </section>
 
-        <section class="content presentation">
+        <section id="presentation" class="scroll-reveal content presentation" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Présentation TFA</h2>
 
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Voici la vidéo du déroulement de mon projet</p>
 
+            <img src="" alt="">
+
             <a class="section-link mgrid-start01 mgrid-end grid-start03 grid-end09" href="#">Lien vers reste d'infos</a>
             
         </section>
 
-        <section class="content conclusion">
+        <section class=" scroll-reveal content conclusion" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title title--medium mgrid-start01 mgrid-end grid-start01 grid-end">Conclusion</h2>
 
             <figure class="mgrid-start01 mgrid-end gridstart01 grid-end07">
-                <img class="image__content" src="assets/images/maya.png" srcset="assets/images/image-intro@2x.png 2x" alt="Prototype app" loading="lazy" decoding="async">
+                <img class="image__content" src="assets/images/image-intro.png" srcset="assets/images/image-intro@2x.png 2x" alt="Prototype app" loading="lazy" decoding="async" data-aos="fade-right" data-aos-duration="1500">
             </figure>
 
             <p class="txt__content mgrid-start01 mgrid-end grid-start03 grid-end09">Avec la création de cette formation/ guide, j’espère pouvoir venir en aide à toutes ces personnes qui se trouvent dans une situation d’urgence avec un animal et qui ne savent pas comment réagir, mais aussi, à tous les animaux qui pourraient avoir besoin d’aide. </p>
 
         </section>
 
-        <button id="scrollUpButton"></button>
+        <button class="scroll-up-button">
+            <img src="assets/images/fleche.svg" alt="Scroll Up">
+        </button>
+          
 
     </main>
 
@@ -231,6 +300,8 @@
             <small class="footer__el--row"><a class="link footer__link" href="https://mateocueva.be">Mateo Cueva</a> © <span id="year">année</span></small>
         </div>
     </footer>
+
+    <script>AOS.init();</script>
 
 </body>
 </html>

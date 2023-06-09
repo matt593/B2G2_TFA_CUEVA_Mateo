@@ -22,53 +22,24 @@ function menu(){
 }
 }
 
-//
-
-const slider = document.querySelector('.slider');
-const slides = document.querySelectorAll('.slide');
-const slideWidth = slides[0].offsetWidth;
-
-let slideIndex = 0;
-
-function slideTo(index) {
-  slider.style.transform = `translateX(-${slideWidth * index}px)`;
-}
-
-function nextSlide() {
-  slideIndex++;
-  if (slideIndex >= slides.length) {
-    slideIndex = 0;
-  }
-  slideTo(slideIndex);
-}
-
-function previousSlide() {
-  slideIndex--;
-  if (slideIndex < 0) {
-    slideIndex = slides.length - 1;
-  }
-  slideTo(slideIndex);
-}
-
-// Écouteurs d'événements pour les boutons de navigation
-document.getElementById('nextBtn').addEventListener('click', nextSlide);
-document.getElementById('prevBtn').addEventListener('click', previousSlide);
 
 
-// Scroll up bouton
+// Scroll up
 
-window.addEventListener('scroll', function() {
-    var scrollButton = document.getElementById('scrollUpButton');
-    if (window.pageYOffset > 100) {
-      scrollButton.style.display = 'block'; /* Affiche le bouton lorsque l'utilisateur fait défiler la page */
-    } else {
-      scrollButton.style.display = 'none'; /* Masque le bouton lorsque l'utilisateur est en haut de la page */
-    }
+const scrollButton = document.querySelector('.scroll-up-button');
+
+document.querySelector('.scroll-up-button').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
   
-  document.getElementById('scrollUpButton').addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' }); /* Anime le défilement jusqu'en haut de la page */
-  });
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 0) {
+    scrollButton.style.display = 'block'; // Affiche le bouton si la position de défilement est supérieure à 0
+  } else {
+    scrollButton.style.display = 'none'; // Masque le bouton si la position de défilement est en haut de la page
+  }
+});
+
 
   //Date footer
 let date = new Date();
