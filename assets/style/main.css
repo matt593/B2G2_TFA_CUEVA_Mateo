@@ -40,7 +40,8 @@
   color: var(--color-bg);
   text-decoration: none;
   position: relative;
-  padding-right: 20px; }
+  padding-right: 20px;
+  font-family: 'Cabin', sans-serif; }
 
 .header__link:hover::before {
   content: "";
