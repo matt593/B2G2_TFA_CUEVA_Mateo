@@ -218,12 +218,13 @@
         height: auto;
     }
 
-    .rencontres{
-        background-color: var(--color-fourth);
-    }
 
-    .solutions{
-        background-color: var(--color-bg);
+    a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #2d4473;
+        margin: 10px 0;
     }
 
 }

@@ -284,10 +284,12 @@
   .image__content--logo {
     width: 30%;
     height: auto; }
-  .rencontres {
-    background-color: var(--color-fourth); }
-  .solutions {
-    background-color: var(--color-bg); } }
+  a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d4473;
+    margin: 10px 0; } }
 
 /* css grid*/
 .content {
@@ -303,7 +305,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 18px;
   max-width: 100ch;
-  margin: auto; }
+  margin: 20px; }
 
 .mgrid-start01 {
   grid-column-start: 1; }
@@ -335,60 +337,15 @@
 .mgrid-end {
   grid-column-end: -1; }
 
-@media screen and (min-width: 1025px) {
-  .main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); }
-  .introduction {
-    grid-column: span 2;
-    padding: 0; }
-  .motivation {
-    grid-column: span 2;
-    margin-top: 0; }
-  .rencontres {
-    grid-column: span 2; }
-  .solutions {
-    grid-column: span 2;
-    margin-top: 0; }
-  .modules {
-    grid-column: 1 / -1; }
-  .presentation {
-    grid-column: span 2; }
-  .conclusion {
-    grid-column: span 2; }
+@media screen and (min-width: 768px) {
   .content {
     grid-template-columns: repeat(7, 1fr);
-    grid-column-gap: 20px;
-    max-width: 1300px;
-    margin-bottom: 100px; }
-  .grid-start01 {
-    grid-column-start: 1; }
-  .grid-start02 {
-    grid-column-start: 2; }
-  .grid-start03 {
-    grid-column-start: 3; }
-  .grid-start04 {
-    grid-column-start: 4; }
-  .grid-start05 {
-    grid-column-start: 5; }
-  .grid-start06 {
-    grid-column-start: 6; }
-  .grid-start07 {
-    grid-column-start: 7; }
-  .grid-end02 {
-    grid-column-end: 2; }
-  .grid-end03 {
-    grid-column-end: 3; }
-  .grid-end04 {
-    grid-column-end: 4; }
-  .grid-end05 {
-    grid-column-end: 5; }
-  .grid-end06 {
-    grid-column-end: 6; }
-  .grid-end {
-    grid-column-end: -1; }
-  .souscontent {
-    margin: auto; } }
+    width: 100vh; } }
+
+@media screen and (min-width: 1024px) {
+  .content {
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vh; } }
 
 .title {
   font-family: 'Cabin', sans-serif;
@@ -421,7 +378,7 @@
 
 .txt__content {
   font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: var(--color-text);
@@ -429,7 +386,7 @@
 
 .txt__details {
   font-family: 'Quicksans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: var(--color-bg);
