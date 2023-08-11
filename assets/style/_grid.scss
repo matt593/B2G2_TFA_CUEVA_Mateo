@@ -1,20 +1,21 @@
 /* css grid*/
 
 .content{
-    padding: 18px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 18px;
-    max-width: 100ch;
+    max-width: 100%;
     margin: auto;
 }
 
 .souscontent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 18px;
-    max-width: 100ch;
+    max-width: 100%;
     margin: 20px;
+}
+
+.sectionpadding{
+    padding: 18px;
 }
 
 .mgrid-start01{
@@ -52,14 +53,14 @@
 
 @media screen and (min-width: 768px) {
     .content {
-      grid-template-columns: repeat(7, 1fr);
-      width: 100vh;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
     }
   }
   
   @media screen and (min-width: 1024px) {
     .content {
-      grid-template-columns: repeat(10, 1fr); 
-      width: 100vh;
+      grid-template-columns: repeat(2, 1fr); 
+      width: 100%;
     }
   }

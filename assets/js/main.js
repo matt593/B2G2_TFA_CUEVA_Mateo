@@ -41,6 +41,20 @@ window.addEventListener('scroll', () => {
 });
 
 
+// Nav
+
+const menuelements = document.querySelectorAll('.header__el li');
+
+menuelements.forEach(
+  element=> {
+    element.addEventListener('click', function() {
+      menuelements.forEach(innerelement=> innerelement.classList.remove('active'));
+      element.classList.add('active');
+    } );
+  }
+);
+
+
   //Date footer
 let date = new Date();
 let year = date.getFullYear();

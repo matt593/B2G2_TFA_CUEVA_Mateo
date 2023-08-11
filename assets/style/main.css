@@ -74,9 +74,10 @@
   height: 92vh;
   top: 10vh;
   background-color: var(--color-primary);
-  width: 70%; }
+  width: 25vw; }
 
 .header__el {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -85,11 +86,21 @@
   letter-spacing: 0.2rem;
   margin-top: 18px; }
 
-.nav__el--active {
-  border-bottom: 3px var(--color-bg) solid; }
+.active {
+  font-weight: 600;
+  border-bottom: 1px solid #ffffff; }
 
-.nav__el--inactive {
-  border-bottom: 3px var(--color-primary) solid; }
+.active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/Animergency-picto-copie-blanc.svg");
+  background-size: cover;
+  margin-left: 5px; }
 
 .header__link:hover {
   color: var(--color-bg);
@@ -126,6 +137,10 @@
 
 .main {
   margin-top: 70px; }
+
+.introduction {
+  min-height: 90vh;
+  align-items: center; }
 
 .image__intro {
   width: 125%;
@@ -293,19 +308,19 @@
 
 /* css grid*/
 .content {
-  padding: 18px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 18px;
-  max-width: 100ch;
+  max-width: 100%;
   margin: auto; }
 
 .souscontent {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 18px;
-  max-width: 100ch;
+  max-width: 100%;
   margin: 20px; }
+
+.sectionpadding {
+  padding: 18px; }
 
 .mgrid-start01 {
   grid-column-start: 1; }
@@ -339,13 +354,13 @@
 
 @media screen and (min-width: 768px) {
   .content {
-    grid-template-columns: repeat(7, 1fr);
-    width: 100vh; } }
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; } }
 
 @media screen and (min-width: 1024px) {
   .content {
-    grid-template-columns: repeat(10, 1fr);
-    width: 100vh; } }
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; } }
 
 .title {
   font-family: 'Cabin', sans-serif;
