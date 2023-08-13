@@ -74,7 +74,7 @@
   height: 92vh;
   top: 10vh;
   background-color: var(--color-primary);
-  width: 25vw; }
+  width: 50vw; }
 
 .header__el {
   position: relative;
@@ -88,7 +88,7 @@
 
 .active {
   font-weight: 600;
-  border-bottom: 1px solid #ffffff; }
+  border-bottom: 2px solid #ffffff; }
 
 .active::before {
   content: "";
@@ -122,6 +122,15 @@
 
 .header--cross {
   background-image: url(../images/icon-croix.svg); }
+
+@media screen and (min-width: 768px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; } }
+
+@media screen and (min-width: 1024px) {
+  .nav__header {
+    width: 25vw; } }
 
 * {
   margin: 0;
