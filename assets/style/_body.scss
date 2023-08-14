@@ -19,13 +19,18 @@
     margin-top: 70px;
 }
 
+.sectionpadding{
+    padding: 18px;
+}
+
 .introduction{
     min-height: 90vh;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .image__intro{
-    width: 125%;
+    width: 100%;
     height: auto;
     position: relative;
     left: 0;
@@ -60,6 +65,11 @@
 
 .motivation{
     background-color: var(--color-secondary);
+}
+
+.rencontres{
+    display: flex;
+    align-content: center;
 }
 
 .more{

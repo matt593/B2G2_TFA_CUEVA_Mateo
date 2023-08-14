@@ -147,12 +147,16 @@
 .main {
   margin-top: 70px; }
 
+.sectionpadding {
+  padding: 18px; }
+
 .introduction {
   min-height: 90vh;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 25px; }
 
 .image__intro {
-  width: 125%;
+  width: 100%;
   height: auto;
   position: relative;
   left: 0;
@@ -179,6 +183,10 @@
 
 .motivation {
   background-color: var(--color-secondary); }
+
+.rencontres {
+  display: flex;
+  align-content: center; }
 
 .more {
   background-color: #2d4473;
@@ -321,55 +329,6 @@
   grid-column-gap: 18px;
   max-width: 100%;
   margin: auto; }
-
-.souscontent {
-  display: grid;
-  grid-column-gap: 18px;
-  max-width: 100%;
-  margin: 20px; }
-
-.sectionpadding {
-  padding: 18px; }
-
-.mgrid-start01 {
-  grid-column-start: 1; }
-
-.mgrid-start02 {
-  grid-column-start: 2; }
-
-.mgrid-start03 {
-  grid-column-start: 3; }
-
-.mgrid-start04 {
-  grid-column-start: 4; }
-
-.mgrid-start05 {
-  grid-column-start: 5; }
-
-.mgrid-end02 {
-  grid-column-end: 2; }
-
-.mgrid-end03 {
-  grid-column-end: 3; }
-
-.mgrid-end04 {
-  grid-column-end: 4; }
-
-.mgrid-end05 {
-  grid-column-end: 5; }
-
-.mgrid-end {
-  grid-column-end: -1; }
-
-@media screen and (min-width: 768px) {
-  .content {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%; } }
-
-@media screen and (min-width: 1024px) {
-  .content {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%; } }
 
 .title {
   font-family: 'Cabin', sans-serif;
