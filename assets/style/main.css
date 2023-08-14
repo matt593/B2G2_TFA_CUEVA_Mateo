@@ -150,9 +150,6 @@
 .sectionpadding {
   padding: 18px; }
 
-.custom-cursor {
-  cursor: url(../images/curseur-patte.png), auto; }
-
 .introduction {
   min-height: 90vh;
   align-items: center;
@@ -161,13 +158,14 @@
 .image__intro {
   width: 100%;
   height: auto;
-  position: relative;
-  left: 0;
-  transition: left 0.3s ease-out; }
+  position: relative; }
 
 .image__content {
-  margin: 20px 0;
   width: 100%;
+  height: auto; }
+
+.image__rencontres {
+  width: 25%;
   height: auto; }
 
 .btn-experience {
@@ -175,21 +173,17 @@
   text-align: center;
   background-color: var(--color-primary);
   margin: 40px 0;
-  padding: 8px 12px;
+  padding: 10px 25px;
   border-radius: 20px;
   color: var(--color-bg);
   text-decoration: none; }
 
-.bouton--style :hover {
+.btn-experience :hover {
   background-color: var(--color-bg);
   color: var(--color-primary); }
 
 .motivation {
   background-color: var(--color-secondary); }
-
-.rencontres {
-  display: flex;
-  align-content: center; }
 
 .more {
   background-color: #2d4473;
@@ -202,14 +196,21 @@
 .solutions {
   background-color: var(--color-fourth); }
 
+.slider__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.modules {
+  align-items: center; }
+
 .icone {
-  width: 130%;
+  width: 20%;
   height: auto; }
 
 .img__slide {
-  width: 80%;
-  height: auto;
-  margin: 30px 0; }
+  width: 30%;
+  height: 30%; }
 
 .motivation {
   padding: 0; }
@@ -313,7 +314,7 @@
 
 @media screen and (min-width: 1025px) {
   .image__content {
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: 0; }
   .image__content--logo {
@@ -324,8 +325,7 @@
     font-weight: 600;
     font-size: 18px;
     color: #2d4473;
-    margin: 10px 0;
-    cursor: url(../images/curseur-patte.png), auto; } }
+    margin: 10px 0; } }
 
 /* css grid*/
 .content {
@@ -450,29 +450,3 @@
     color: var(--color-bg); } }
 
 /* slider */
-@media screen and (min-width: 1025px) {
-  .slider__container {
-    overflow: hidden; }
-  .slider {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory; }
-  .slide {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-    position: relative; }
-  .slide img {
-    width: 40%;
-    height: auto; }
-  .slide-content {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
-  .slide-content img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px; }
-  .slide-content details {
-    margin-top: 10px; } }
