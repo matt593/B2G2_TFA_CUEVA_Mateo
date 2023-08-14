@@ -23,6 +23,10 @@
     padding: 18px;
 }
 
+.custom-cursor{
+    cursor: url(../images/curseur-patte.png), auto;
+}
+
 .introduction{
     min-height: 90vh;
     align-items: center;
@@ -240,6 +244,7 @@
         font-size: 18px;
         color: #2d4473;
         margin: 10px 0;
+        cursor: url(../../assets/images/curseur-patte.png), auto;
     }
 
 }
