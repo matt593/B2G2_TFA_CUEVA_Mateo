@@ -83,10 +83,20 @@
     background-color: var(--color-fourth);
 }
 
-.slider__container{
+section figure{
+    display: flex;
+    justify-content: center;
+}
+
+.slider .souscontent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.slider .more{
+    width: 80vw;
 }
 
 .modules{

@@ -8,6 +8,11 @@
     <title>TFA | Landing page</title>
     <link rel="stylesheet" href="assets/style/main.css">
     <link href="assets/style/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <script src="assets/js/main.js" defer></script>
     <script src="assets/js/aos.js"></script>
@@ -190,7 +195,7 @@
 
             </section>
 
-            <section id="modules" class="scroll-reveal modules sectionpadding" data-aos="fade-up" data-aos-duration="1000">
+            <section id="modules" class="scroll-reveal modules sectionpadding">
                 <h2 class="title title--medium">Modules</h2>
 
                 <p class="txt__content">Dans le but de mener à bien mon projet, il y aura une fonctionnalité principale et plusieurs fonctionnalités secondaires. </p>
@@ -200,7 +205,7 @@
                         <div class="souscontent slide slides-content">
                             <img class="icone" src="assets/images/apprendre.svg" alt="Icone apprendre">
                             <h4 class="mini--title">Formation en ligne</h4>
-                            <img class="img__slide" src="assets/images/apprendre.png" srcset="assets/images/apprendre@2x.png 2x" alt="Image prototype app module apprentissage" data-aos="zoom-in" data-aos-duration="1500">
+                            <img class="img__slide" src="assets/images/apprendre.png" srcset="assets/images/apprendre@2x.png 2x" alt="Image prototype app module apprentissage">
                             <details  class="more">
                                 <summary class="sum__title">Détails</summary>
                                 <p class="txt__details">Le but premier de mon projet étant celui de former/ instruire les utilisateurs, il me paraît logique que je doive me concentrer surtout sur cet aspect du site/ application. En effet, je veux créer un espace attractif et intéractif où les personnes choisissent elles-mêmes les sujets qui les intéressent le plus, et aussi qu’elles prennent un certain plaisir lorsqu'elles apprennent.</p>
@@ -212,7 +217,7 @@
                         <div class="souscontent slide slides-content">
                             <img class="icone" src="assets/images/quiz.svg" alt="Icone quiz">
                             <h4 class="mini--title">Quiz</h4>
-                            <img class="img__slide" src="assets/images/quiz.png" srcset="assets/images/quiz@2x.png 2x" alt="Image prototype app module quiz" data-aos="zoom-in" data-aos-duration="1500">
+                            <img class="img__slide" src="assets/images/quiz.png" srcset="assets/images/quiz@2x.png 2x" alt="Image prototype app module quiz">
                             <details  class="more">
                                 <summary class="sum__title">Détails</summary>
                                 <p class="txt__details">Cette fonctionnalité aurait pour objectif de permettre à l’utilisateur de tester les connaissances qu’il aurait apprises tout seul ou à l’aide du guide. De plus, si celui-ci (l’utilisateur), n’a pas envie d’apprendre de manière traditionnelle (càd, lecture ou autre) il peut tout de même apprendre à l’aide du quiz.</p>
@@ -224,7 +229,7 @@
                         <div class="souscontent slide slides-content">
                             <img class="icone" src="assets/images/espace-perso.svg" alt="Icone espace personnel">
                             <h4 class="mini--title">Espace personnel</h4>
-                            <img class="img__slide" src="assets/images/espace-perso.png" srcset="assets/images/espace-perso@2x.png 2x" alt="Image prototype app module espace personnel" data-aos="zoom-in" data-aos-duration="1500">
+                            <img class="img__slide" src="assets/images/espace-perso.png" srcset="assets/images/espace-perso@2x.png 2x" alt="Image prototype app module espace personnel">
                             <details  class="more">
                                 <summary class="sum__title">Détails</summary>
                                 <p class="txt__details">La création d’un espace personnel aurait pour but de permettre à l’utilisateur de personnaliser son expérience. Par exemple, lors de son inscription il/elle peut sélectionner les sujets qui l'intéresse le plus (ex: quoi faire en cas d’étouffement, comment réaliser un massage cardiaque, etc..) et/ou en fonction des animaux qu’il possèdent, l’application lui proposerait les sujets qui pourrait lui intéresser.</p>
@@ -236,7 +241,7 @@
                         <div class="souscontent slide slides-content">
                             <img class="icone" src="assets/images/sos.svg" alt="Icone urgence">
                             <h4 class="mini--title">Bouton de contact d'urgence</h4>
-                            <img class="img__slide" src="assets/images/urgence.png" srcset="assets/images/urgence@2x.png 2x" alt="Image prototype app module appel d'urgence" data-aos="zoom-in" data-aos-duration="1500">
+                            <img class="img__slide" src="assets/images/urgence.png" srcset="assets/images/urgence@2x.png 2x" alt="Image prototype app module appel d'urgence">
                             <details  class="more">
                                 <summary class="sum__title">Détails</summary>
                                 <p class="txt__details">Ce bouton permettrait à quiconque se trouvant dans une situation d’urgence médicale avec un animal, de faire appel à la clinique vétérinaire ou centre de soin le plus proche de sa position.</p>
@@ -319,6 +324,22 @@
     </footer>
 
     <script>AOS.init();</script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider__container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+          });
+        });
+      </script>
 
 </body>
 </html>

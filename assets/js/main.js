@@ -54,6 +54,10 @@ menuelements.forEach(
   }
 );
 
+//Slider
+
+
+
 
   //Date footer
 let date = new Date();
