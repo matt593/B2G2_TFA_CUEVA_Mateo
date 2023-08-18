@@ -10,6 +10,22 @@
         max-width: 100%;
     }
 
+    .content-ui{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 5px;
+        max-width: 100%;
+    }
+
+    .content-credits{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 5px;
+        max-width: 100%;
+    }
+
     .tgrid-start01{
         grid-column-start: 1;
     }
@@ -102,6 +118,22 @@
     }
 
     .content{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-column-gap: 18px;
+        grid-row-gap: 15px;
+        max-width: 100%;
+    }
+
+    .content-ui{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-column-gap: 18px;
+        grid-row-gap: 15px;
+        max-width: 100%;
+    }
+
+    .content-credits{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         grid-column-gap: 18px;

@@ -30,6 +30,9 @@
     margin-bottom: 25px;
 }
 
+.logo__intro{
+    padding: 10px;
+}
 
 .image__intro{
     width: 100%;
@@ -45,7 +48,7 @@
 }
 
 .image__rencontres{
-    width: 25%;
+    width: 40%;
     height: auto;
 }
 
@@ -260,6 +263,106 @@ section figure{
     align-items: center;
 }
 
+//UI-Ki//
+
+.main-uikit{
+    margin: 18px;
+}
+
+.content-ui{
+    margin-top: 25%;
+}
+
+.content__list{
+    list-style-type: none;
+}
+
+.icons--size{
+    width: 25%;
+    padding: 15px 0;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.couleur1{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-bg);
+    border: solid 1px var(--color-text);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.couleur2{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-primary);
+    border: solid 1px var(--color-primary);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.couleur3{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-secondary);
+    border: solid 1px var(--color-secondary);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.couleur4{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-fourth);
+    border: solid 1px var(--color-fourth);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.couleur5{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-text);
+    border: solid 1px var(--color-text);
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+//Crédits//
+
+.main-credits{
+    margin: 18px;
+    padding-bottom: 23%;
+
+}
+
+.content-credits{
+    margin-top: 25%;
+}
+
+.credlist{
+    margin-top: 20%;
+    list-style-type: none;
+}
+
+.lien__credits{
+    text-decoration: none;
+    color: var(--color-secondary);
+    margin-top: 30px;
+}
+
+.lien__credits:hover{
+    color: var(--color-primary);
+    border-bottom: solid 2px var(--color-primary);
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
     .logo__intro{
@@ -293,6 +396,37 @@ section figure{
 
     .footer{
         margin-top: 10%;
+    }
+
+    //UI-Ki//
+
+    .content-ui{
+        margin-top: 8%
+    }
+
+    .content__list{
+        list-style-type: none;
+    }
+
+    .icons--size{
+        width: 60%;
+        padding: 20px 0;
+    }
+
+    .ui-title{
+        padding-top: 30px;
+    }
+
+    //Crédits//
+
+    .main-credits{
+        margin: 25px;
+        padding-bottom: 17%;
+
+    }
+
+    .content-credits{
+        margin-top: 20%;
     }
 
 }
@@ -332,7 +466,7 @@ section figure{
     }
 
     .image__rencontres{
-        padding-top: 17%;
+        padding-top: 10%;
         width: 40%;
         height: auto;
     }
@@ -401,5 +535,28 @@ section figure{
     .footer{
         margin-top: 7%;
     }
+
+    //UI-Kit//
+
+    .content-ui{
+        margin-top: 7%;
+    }
+
+    //Crédits//
+
+    .main-credits{
+        margin: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .credlist{
+        margin-top: 0;
+    }
+
+    .content-credits{
+        margin-top: 8%;
+    }
+
 
 }
