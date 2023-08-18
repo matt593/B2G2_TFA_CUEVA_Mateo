@@ -124,9 +124,6 @@
   background-image: url(../images/icon-croix.svg); }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .content {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%; }
   .nav__header {
     top: 7vh; } }
 
