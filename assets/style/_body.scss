@@ -58,11 +58,13 @@
     border-radius: 20px;
     color: var(--color-bg);
     text-decoration: none;
+    align-items: center;
 }
 
-.btn-experience :hover{
+.btn-experience:hover{
     background-color: var(--color-bg);
     color: var(--color-primary);
+    border: solid var(--color-primary) 2px;
 }
 
 .motivation{
@@ -95,9 +97,15 @@ section figure{
     align-items: center;
 }
 
-.slider .more{
-    width: 80vw;
+.slider{
+    margin: 20px;
 }
+
+.slider .more{
+    width: 100%;
+}
+
+
 
 .modules{
     align-items: center;
@@ -258,5 +266,69 @@ section figure{
         color: #2d4473;
         margin: 10px 0;
     }
+
+    .image__rencontres{
+        padding-top: 17%;
+        width: 40%;
+        height: auto;
+    }
+
+    .rencontres{
+        background-image: url(../images/fond-pattes.svg);
+    }
+
+    .solutions{
+        background-image: url(../images/fond-pattes-blanc.svg);
+    }
+
+    .icone{
+        width: 5%;
+    }
+
+    .img__slide{
+        width: 15%;
+    }
+
+    .slider__container{
+        max-width: 90vw;
+    }
+
+    .slider{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 3vh;
+        height: fit-content;
+        margin: 20px;
+        place-items: center;
+    }
+
+    .slider .slides-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .slider .slides-image img{
+        height: 100%;
+        width: 60%;
+        object-fit: contain;
+    }
+
+    .slider .slides-content img{
+        width: 15%;
+    }
+
+
+    .slick-arrow::before{
+        font-size: 40px !important;
+        height: 10vh !important;
+        width: 10vh !important;
+        color: #2d4473 !important;
+    }
+
 
 }

@@ -54,7 +54,8 @@ menuelements.forEach(
   }
 );
 
-//Slider
+//Fermer summary lorsqu'un autre est ouvert
+
 
 
 
